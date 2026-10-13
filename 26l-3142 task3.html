@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Reservation Form</title>
+
+    <style>
+
+
+.affan {
+    width: 500px;
+    margin: 40px auto;
+    padding: 15px;
+    background-color: lightgrey;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+    font-size: 23px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid steelblue;
+    background-color: lightblue;
+}
+
+td {
+    border: 1px solid steelblue;
+    padding: 7px;
+}
+
+.label {
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+    width: 130px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telephone"],
+input[type="time"],
+input[type="date"] {
+    width: 150px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 3px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 6px 18px;
+    cursor: pointer;
+    background-color: steelblue;
+    color: white;
+    border: none;
+}
+    </style>
+</head>
+
+<body>
+
+<div class="affan">
+
+    <h2>Continental Hotel Reservation Form</h2>
+
+    <form>
+        <table>
+
+            <tr>
+                <td class="label">Name</td>
+                <td>
+                    <input type="text" placeholder="Enter your name"
+                           name="name">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">eMail</td>
+                <td>
+                    <input type="email" value="info@continental.pk"
+                           name="email">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Mobile No</td>
+                <td>
+                    <input type="tel" placeholder="Enter your cell number"
+                           name="mobile">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Arrival Time</td>
+                <td>
+                    <input type="time" name="arrival">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Departure</td>
+                <td>
+                    <input type="date" name="departure">
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Room Type</td>
+                <td>
+                    <input type="radio" name="room" value="Single">
+                    Single
+
+                    <input type="radio" name="room" value="Double">
+                    Double
+                    <br>
+
+                    <input type="radio" name="room"
+                           value="Presidential Suite">
+                    Presidential Suite
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Preferences</td>
+                <td>
+                    <input type="checkbox" name="preferences"
+                           value="Non-Smoking"> Non-Smoking
+                    <br>
+
+                    <input type="checkbox" name="preferences"
+                           value="Internet"> Internet
+                    <br>
+
+                    <input type="checkbox" name="preferences"
+                           value="Firm Mattress"> Firm Mattress
+                </td>
+            </tr>
+
+            <tr>
+                <td class="label">Mode of Payment</td>
+                <td>
+                    <input type="checkbox" name="payment"
+                           value="Cash"> Cash
+
+                    <input type="checkbox" name="payment"
+                           value="Check"> Check
+                    <br>
+
+                    <input type="checkbox" name="payment"
+                           value="Credit Card"> Credit Card
+
+                    <select name="card">
+                        <option value="">Select Card</option>
+                        <option value="Visa">Visa</option>
+                        <option value="Mastercard">Mastercard</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="submit">
+                    <input type="submit" value="Send Data">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+
+</div>
+
+</body>
+</html>
+
+
+
+                                                                                                                                                                                                                                                                                                                                    
